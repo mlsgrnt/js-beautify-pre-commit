@@ -3,5 +3,5 @@
   entry: js-beautify --replace --templating django --end-with-newline
   language: node
   'types': [html]
-  require_serial: false
+  require_serial: true
   additional_dependencies: ['js-beautify@1.10.3']
