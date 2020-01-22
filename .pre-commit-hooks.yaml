@@ -3,6 +3,14 @@
   entry: js-beautify
   language: node
   'types': [html]
-  args: []
+  args:
+    [
+      '--replace',
+      '--end-with-newline',
+      '--indent-size=2',
+      '--indent-char= ',
+      '--max-preserve-newlines=2',
+      '--templating django',
+    ]
   require_serial: false
   additional_dependencies: ['js-beautify@1.10.3']
