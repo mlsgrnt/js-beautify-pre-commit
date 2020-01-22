@@ -1,18 +1,16 @@
-jshint mirror
-================
+# js-beautify mirror
 
-Mirror of jshint package for pre-commit.
+Mirror of js-beautify package for pre-commit.
 
 For pre-commit: see https://github.com/pre-commit/pre-commit
 
-For jshint: see https://github.com/jshint/jshint
+For js-beautify: see https://github.com/jshint/jshint
 
-
-### Using jshint with pre-commit
+### js-beautifyshint with pre-commit
 
 Add this to your `.pre-commit-config.yaml`:
 
-    -   repo: https://github.com/pre-commit/mirrors-jshint
+    -   repo: https://github.com/mlsgrnt/js-beautify-pre-commit
         rev: ''  # Use the sha / tag you want to point at
         hooks:
-        -   id: jshint
+        -   id: js-beautify
